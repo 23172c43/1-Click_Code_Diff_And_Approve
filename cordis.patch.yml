@@ -1,0 +1,3 @@
+- insert:
+    - id: one-click-diff-approve
+      name: '@local/one-click-diff-approve'

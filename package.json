@@ -1,0 +1,15 @@
+{
+  "name": "@local/one-click-diff-approve",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Require one-click approval with a rendered diff before any code write or edit.",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
